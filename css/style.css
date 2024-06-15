@@ -1968,18 +1968,13 @@ span.error {
 }
 
 
-/* style.css */
 
-/* Reset default margin and padding */
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #fff; /* Example background color */
-}
+
+
+
 
 /* Centering the main container */
-.flex {
+.xelf {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1987,7 +1982,7 @@ body, html {
 }
 
 /* Style for the SVG icon */
-.lucide {
+.luside {
   stroke: #142c3e; /* Example stroke color */
   width: 60px; /* Example width */
   height: 60px; /* Example height */
@@ -2011,64 +2006,3 @@ body, html {
   color: #142c3e; /* Example text color on hover */
   border-color: #fff; /* Example border color on hover */
 }
-
-
-
-
-.container {
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-}
-
-.social-icons-container {
-  display: flex;
-  flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
-  gap: 3rem; /* Space between icons */
-}
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.copyright-text {
-  margin-top: 0rem; /* Space between icons and text */
-  display: flex;
-  justify-content: flex-start; /* Align text to the left */
-  margin-bottom: 1rem; /* Add margin below text */
-}
-
-/* Media query for smaller screens */
-@media (max-width: 767px) {
-  .social-icons-container {
-    flex-direction: row; /* Align elements horizontally */
-    justify-content: center; /* Center the icons horizontally */
-    align-items: center; /* Center-align elements vertically */
-    gap: 2.5rem; /* Reduce space between icons */
-    padding: 0 1rem; /* Add padding to prevent touching borders */
-  }
-
-  .copyright-text {
-    flex-direction: column; /* Stack text below icons */
-    align-items: center; /* Center-align text */
-    margin-top: 3rem; /* Adjust margin between icons and text */
-  }
-}
-
-/* Media query for larger screens */
-@media (min-width: 768px) {
-  .social-icons-container {
-    justify-content: flex-end; /* Align icons to the right */
-    gap: 3rem; /* Space between icons */
-  }
-}
-
-
-
-
-
-
-
-
-
